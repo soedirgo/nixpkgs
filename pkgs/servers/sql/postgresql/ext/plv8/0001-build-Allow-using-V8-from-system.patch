@@ -15,7 +15,7 @@ index b8ccb7f..c13bb0d 100644
  endif
  
 +ifeq ($(PLATFORM),macos)
-+	CUSTOM_CC = clang++
++	CUSTOM_CC = c++
 +endif
 +
  PG_CONFIG = pg_config
